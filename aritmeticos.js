@@ -7,4 +7,6 @@ const multiplicacao = a * b
 const divisao = d / a
 const modulo = a % 2
 
+console.log(soma)
+console.log(subtracao)
 console.log(soma, subtracao, multiplicacao, divisao, modulo)
