@@ -20,5 +20,5 @@ function imprirNomeGritado(obj){
   }
 }
 
-const obj = { name: 'Roberto'}
+const obj = { name: 'Roberto', idade: 12, end: 'rua nova'}
 imprirNomeGritado(obj)
