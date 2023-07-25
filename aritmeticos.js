@@ -10,3 +10,5 @@ const modulo = a % 2
 console.log(soma) * 2
 console.log(subtracao)
 console.log(soma, subtracao, multiplicacao, divisao, modulo)
+
+const obj ={};
