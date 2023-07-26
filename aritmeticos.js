@@ -11,4 +11,8 @@ console.log(soma) * 2
 console.log(subtracao)
 console.log(soma, subtracao, multiplicacao, divisao, modulo)
 
-const obj ={};
+const obj ={}
+
+const pessoa = ["Ana", "Mari", "Marta"]
+
+pessoal.push()
