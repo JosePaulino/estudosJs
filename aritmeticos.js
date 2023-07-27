@@ -16,3 +16,12 @@ const obj ={}
 const pessoa = ["Ana", "Mari", "Marta"]
 
 pessoal.push()
+
+function checkPassword(pass) {
+ if (pass === "party1999") {
+  console.log("Logging in...");
+ } else {
+  console.log("Wrong password, try again.");
+ }
+}
+ checkPassword("party1999"); 
