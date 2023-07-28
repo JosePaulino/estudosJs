@@ -25,3 +25,13 @@ function checkPassword(pass) {
  }
 }
  checkPassword("party1999"); 
+
+function applySeniorDiscount(age) {
+ if (age >= 65) {
+  return "You get 20% off";
+ } else {
+  return "Please pay full price";
+ }
+}
+const discount = applySeniorDiscount(65);
+ console.log(discount);
