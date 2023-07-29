@@ -26,6 +26,10 @@ function checkPassword(pass) {
 }
  checkPassword("party1999"); 
 
+function testeA(){
+ console.log("Teste")
+}
+
 function applySeniorDiscount(age) {
  if (age >= 65) {
   return "You get 20% off";
