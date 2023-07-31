@@ -39,3 +39,11 @@ function applySeniorDiscount(age) {
 }
 const discount = applySeniorDiscount(65);
  console.log(discount);
+
+
+function cell (number){
+ for(let i = 0; i >= number){
+  console.log(number)
+ }
+}
+cell(10)
