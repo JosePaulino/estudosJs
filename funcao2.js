@@ -16,3 +16,6 @@ console.log(subtracao(20, 5))
 
 const imprimir2 = a => console.log(a)
 imprimir2("Legal!!!")
+
+const getArea = (length,  width ) => length * width;
+console.log(getArea(5));
