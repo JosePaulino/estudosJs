@@ -19,3 +19,15 @@ imprimir2("Legal!!!")
 
 const getArea = (length,  width ) => length * width;
 console.log(getArea(5));
+
+const airplanes = {
+ brand: "Airbus",
+ model: "A300",
+ engine: 'Pratt & Whitney',
+};
+const {
+ brand,
+ model,
+ engine:  engineBrand ,
+} = airplanes;
+console.log(brand, model, engineBrand);
