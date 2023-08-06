@@ -20,6 +20,20 @@ imprimir2("Legal!!!")
 const getArea = (length,  width ) => length * width;
 console.log(getArea(5));
 
+const conferenceInformation = {
+ attendees: 200,
+ location: "6203 North 100st",
+ days: 3,
+};
+
+function getScholarshipsQty({
+  attendees 
+}) {
+ const scholarshipsQty = attendees * 0.1;
+ console.log(`The scholarships quantity are ${scholarshipsQty}.`);
+}
+getScholarshipsQty(conferenceInformation);
+
 const airplanes = {
  brand: "Airbus",
  model: "A300",
