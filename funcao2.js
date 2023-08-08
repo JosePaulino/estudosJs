@@ -45,3 +45,16 @@ const {
  engine:  engineBrand ,
 } = airplanes;
 console.log(brand, model, engineBrand);
+
+
+const challengeGreeting = (name) => {
+ const generalMessage = "Hello, " +
+  name +
+  "! Welcome to Terrace Inn & Suites!";
+ const seasonalMessage =
+  "Need to cool off? Visit one of our three resort pools!";
+ return generalMessage + " " +
+  seasonalMessage;
+};
+console.log(challengeGreeting(
+"Sarah")); 
