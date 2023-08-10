@@ -58,3 +58,9 @@ const challengeGreeting = (name) => {
 };
 console.log(challengeGreeting(
 "Sarah")); 
+
+
+  const flavors = ["chocolate", "vanilla", "strawberry"];
+const lengths = flavors.map(function( element ) {
+ console.log(element);
+});
