@@ -64,3 +64,10 @@ console.log(challengeGreeting(
 const lengths = flavors.map(function( element ) {
  console.log(element);
 });
+
+
+const weather = [67, 78, 73, 77, 82, 93];
+const shortSleeveDay = weather.filter(function(temp) {
+  return  temp > 75;
+});
+console.log(shortSleeveDay);
