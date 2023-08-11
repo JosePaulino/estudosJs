@@ -71,3 +71,9 @@ const shortSleeveDay = weather.filter(function(temp) {
   return  temp > 75;
 });
 console.log(shortSleeveDay);
+
+const values = [4, 3, 2, 1];
+const factorial = values.reduce(function( prev , curr) {
+ return prev * curr;
+});
+console.log(factorial);
