@@ -77,3 +77,11 @@ const factorial = values.reduce(function( prev , curr) {
  return prev * curr;
 });
 console.log(factorial);
+
+let prices = [2500.25, 3482.50,
+ 1746.50];
+let total = prices.reduce(function(
+ prev, curr) {
+ return prev + curr;
+});
+console.log(total);
